@@ -1,8 +1,7 @@
 
-
-Got Antd installed, following Ant Design's own guide to setup Create React App (CRA) with Antd-Mobile:
-- English: https://ant.design/docs/react/use-with-create-react-app
-- 中文：https://ant.design/docs/react/use-with-create-react-app-cn
+Got Antd-Mobile installed, following Ant Design's own guide to setup Create React App (CRA) with Antd:
+- English: https://mobile.ant.design/docs/react/use-with-create-react-app
+- 中文：https://mobile.ant.design/docs/react/use-with-create-react-app-cn
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
@@ -27,6 +26,7 @@ If u develop for mobile u might want to replace the antd library with antd-mobil
 ```
 - When importing react components, make sure you ll import from 'antd-mobile' instad of 'antd'.
 
+
 ## Install and run:
 
 ```bash
@@ -41,13 +41,18 @@ $ yarn
 $ yarn start
 ```
 
-App.js imports a Button Antd/Antd-Mobile button
+
+App.js imports a Button Antd/Antd-Mobile button.
+
+.config-overrides.js allows switching between CSS and LESS.
+The LESS version shows how to override the color of the Button.
 
 CSS/LESS and React components get imported selectively, only the ones used will become part of the final bundle.
 
+
 ## Libraries from package.json:
 
-- [antd](http://github.com/ant-design/ant-design/)
+- [antd](https://github.com/ant-design/ant-design-mobile)
 - [babel-plugin-import](http://github.com/ant-design/babel-plugin-import/)
 - [create-react-app](https://github.com/facebookincubator/create-react-app)
 - [react-app-rewired](https://github.com/timarney/react-app-rewired)
