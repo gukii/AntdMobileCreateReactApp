@@ -24,7 +24,7 @@ If u develop for mobile u might want to replace the antd library with antd-mobil
 ```js
        config = injectBabelPlugin(['import', { libraryName: 'antd-mobile', style: true }], config);  
 ```
-- When importing react components, make sure you ll import from 'antd-mobile' instad of 'antd'.
+- When importing react components, make sure you ll import from 'antd-mobile' instead of 'antd'.
 
 
 ## Install and run:
@@ -42,7 +42,7 @@ $ yarn start
 ```
 
 
-App.js imports a Button Antd/Antd-Mobile button.
+App.js imports a button component from 'antd-mobile' and renders it on screen.
 
 .config-overrides.js allows switching between CSS and LESS.
 The LESS version shows how to override the color of the Button.
